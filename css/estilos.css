@@ -1,0 +1,181 @@
+body {
+    border: 0%;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Courier New' ;
+    font-size: 18px;
+    background-color: #ced4ca;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: 'Arkitech Medium';
+    src: url('../fonts/Arkitech\ Medium.ttf') format(trutype);
+}
+
+header {
+    height: 110px;
+    background-color:#000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 80px;
+    padding: 15px 30px;
+}
+
+header nav {
+    align-self: flex-end;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FA702B;
+    font-size: 13px;
+    padding: 0px 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav a:hover {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+#imagem-home {
+    height: 500px;
+    background-size: cover;
+    opacity: 0.9;
+    background-image: url('../img/img-home.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 150px 80px;
+}
+
+#call-to-action {
+    background-color: #000;
+    opacity: 10;
+    color: #E3411B;
+    font-size: 45px;
+    text-align: center;
+    padding:  20px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#solicite-orçamento {
+    background-color: rgb(0, 0, 0);
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FD281E;
+    border-radius: 10px;
+    text-align: center;
+    margin: 40px auto 0px auto;
+    font-family: 'Times New Roman', Times, serif;
+}  
+
+#solicite-orçamento:hover {
+    background-color: #E37B1B;
+    color: #FD281E;
+}
+
+#container{
+    padding: 0px 100px;
+}
+
+h1{
+    padding: 45PX 0PX 20px 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#tabela{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: 50px 35px 15px 35px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+#tabela2{
+    text-align: center;
+    background-color: white;
+    margin: 50px 35px 15px 35px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    
+}
+#tabela3{
+    text-align: center;
+    background-color: white;
+    margin: 50px 35px 15px 35px;
+    padding-bottom: 15px;
+    border-radius: 10pxh;
+}
+.financeiro{
+    width: 220px;
+}
+.financeiro2{
+    width: 220px;
+}
+.financeiro3{
+    width: 220px;
+}
+#tabelatitulo{
+    background-color: #FDA61E;
+    margin: 10px 0px 10px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}
+#tabelatitulo:hover{
+    background-color: #E3411B;
+}
+#tabelatitulo2{
+    background-color: #FDA61E;
+    margin: 10px 0px 10px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}
+#tabelatitulo2:hover{
+    background-color: #E3411B;
+}
+#tabelatitulo3{
+    background-color: #FDA61E;
+    margin: 10px 0px 10px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}
+#tabelatitulo3:hover{
+    background-color: #E3411B;
+}
+
+#tabelas{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.orçamento{
+    text-decoration: none;
+}
+
+.texto{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+    footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
